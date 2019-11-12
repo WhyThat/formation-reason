@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel scr/* src/index.html",
+    "start:reason": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reason-react": ">=0.7.0",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.3",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.3"
+  }
+}
