@@ -1,3 +1,8 @@
+type showingState =
+  | All
+  | Completed
+  | Active;
+type state;
 [@react.component]
 let make = () => {
   <footer className="footer">
