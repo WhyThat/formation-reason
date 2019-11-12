@@ -1,6 +1,6 @@
 
 {
-  "name": "beer-oclock",
+  "name": "todolist",
   "ppx-flags": [],
   "bsc-flags": ["-bs-super-errors"],
   "reason": {
