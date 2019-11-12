@@ -1,5 +1,5 @@
 open Setup;
-open ReasonFormation.Util;
+open ReasonFormation.Record;
 
 let users = [
   // remove 10
@@ -24,7 +24,7 @@ Setup.describe("MagicCream", ({test}) =>
         ++ " years old user should now looks like "
         ++ string_of_int(result),
         ({expect}) =>
-        expect.int(ReasonFormation.Util.magicCream(user).age).toBe(result)
+        expect.int(ReasonFormation.Record.magicCream(user).age).toBe(result)
       )
     },
     users,

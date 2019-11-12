@@ -1,5 +1,5 @@
 open Setup;
-open ReasonFormation.Util;
+open ReasonFormation.Record;
 
 Setup.describe("Beatles", ({test}) => {
   test("Lennon", ({expect}) =>

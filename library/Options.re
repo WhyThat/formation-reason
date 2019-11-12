@@ -73,7 +73,7 @@ let name2 = getName(None);
  * Écrire une fonction qui prend une option(string) en paramètre et renvoie
  * une option( String ) dont la première lettre texte est en majuscules.
  */
-let toUpperCase = Option.map(str => String.capitalize_ascii(str));
+let toUpperCase = _ev => None;
 
 /*
  * ---------------------
@@ -86,5 +86,4 @@ let toUpperCase = Option.map(str => String.capitalize_ascii(str));
  *
  */
 let getUsername: (string, string, option(string)) => string =
-  (firstName, lastName, username) =>
-    Option.getOrElse(firstName ++ "." ++ lastName, username);
+  (firstName, lastName, username) => "";

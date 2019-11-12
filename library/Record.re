@@ -21,11 +21,4 @@ type animal =
  *   - 0 si la personne a moins de 30 ans
  */
 
-let magicCream: user => user =
-  user =>
-    switch (user) {
-    | {age} when age >= 60 => {...user, age: age - 10}
-    | {age} when age >= 50 => {...user, age: age - 5}
-    | {age} when age >= 30 => {...user, age: age - 2}
-    | _ => user
-    };
+let magicCream: user => user = user => user;

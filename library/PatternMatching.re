@@ -43,9 +43,4 @@ let getValueWithFun =
  * (Les résultats attendus sont dans les tests)
  */
 
-let getBeatleLastName: ADT.beatles => string =
-  fun
-  | John => "Lennon"
-  | Paul => "McCartney"
-  | George => "Harrisson"
-  | Ringo => "Starr";
+let getBeatleLastName: ADT.beatles => string = _beatle => "";
